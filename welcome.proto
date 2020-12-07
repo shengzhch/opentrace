@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package main;
+
+message WelcomeReq {
+}
+
+message WelcomeResp {
+}
+
+service ApiService {
+    rpc Welcome (WelcomeReq) returns (WelcomeResp);
+}
